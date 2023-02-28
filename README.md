@@ -17,3 +17,8 @@ yarn test: yarn --version output: 1.22.17
 // ใช้ก็ได้ไม่ใช้ก็ได้
 - GitHub Copilot **
 - JS & CSS Minifier (Minify) **
+
+# install 
+yarn install  
+yarn dev
+open browser: http://localhost:3000
