@@ -8,12 +8,6 @@ const PostDetailPage = (props: Props) => {
   const router = useRouter();
   const { id } = router.query;
 
-
-  // const
-  // let
-
-  //   const postId = id as string;
-
   // view
   return <div>PostDetailPage: {id}</div>;
 };

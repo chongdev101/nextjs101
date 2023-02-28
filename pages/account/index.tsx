@@ -1,9 +1,8 @@
+import AccountView from "@/components/AccountView";
 import React from "react";
 
-type Props = {};
-
-const AccountPage = (props: Props) => {
-  return <div>AccountPage</div>;
+const AccountPage = () => {
+  return <AccountView />;
 };
 
 export default AccountPage;
