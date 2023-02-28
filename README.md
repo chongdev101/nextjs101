@@ -7,11 +7,13 @@ npm install --global
 yarn test: yarn --version output: 1.22.17
 
 # Extension
-- GitHub Copilot **
 - ES7+ React/Redux/React-Native snippets
 - html to JSX
-- JS & CSS Minifier (Minify) **
 - Prettier - Code formatter
 - React Component
 - React/Redux/react-router Snippets
 - Simple React Snippets
+
+// ใช้ก็ได้ไม่ใช้ก็ได้
+- GitHub Copilot **
+- JS & CSS Minifier (Minify) **
