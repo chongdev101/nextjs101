@@ -1,5 +1,6 @@
 # init
-- check node version: 16.18.1 : node -v
+- Install node version V16.18.1 https://nodejs.org/en/blog/release/v16.18.1  
+test : node -v
 - install yarn: https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable  
 ```s 
 npm install --global 
