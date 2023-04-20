@@ -1,0 +1,9 @@
+.textRad {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .textRad {
+    color: blue;
+  }
+}

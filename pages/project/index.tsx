@@ -1,5 +1,6 @@
 import { Project } from "@/models/Project";
 import axios from "@/utils/axios";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
 type Props = {};
@@ -14,6 +15,7 @@ export const getStaticProps = async () => {
 };
 
 const ProjectPage = (props: Props) => {
+  const router = useRouter()
   const [isLoad, setIsLoad] = useState<boolean>(true);
   const [projectList, setProjectList] = useState<Project[]>([]);
   const title = `Project`;
@@ -83,9 +85,11 @@ const ProjectPage = (props: Props) => {
         setIsLoad(false);
       }
     };
-
+if(typeof window !== 'undefined'){
     getProjects();
-  }, []);
+}
+  
+  }, [router.isReady]);
 
   if (isLoad) {
     return <div>Loading...</div>;
